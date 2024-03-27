@@ -1,0 +1,43 @@
+/* This is how you write a comment in CSS */
+
+/* Element Selector */
+p{
+    color:rgb(109, 9, 175);
+    
+}
+
+*{
+    color: green;
+}
+
+.class-sample{
+    color: green;
+}
+
+#id-sample{
+    color: pink;
+}
+
+/* Attribute selector */
+/* targetting an amchor tag with specific href */
+
+a[href="https://www.facebook.com"]{
+    color: blue;
+}
+
+/* Group selection */
+h2,h3{
+    font-size: 20px;
+    color: aqua;
+}
+
+.heading1, #heading2{
+    background-color: #04859c;
+    height: 50px;
+    text-align: left;
+}
+
+/* Pseudo-class selection */
+.heading1:hover{
+    background-color: rgb(166, 0, 255);
+}

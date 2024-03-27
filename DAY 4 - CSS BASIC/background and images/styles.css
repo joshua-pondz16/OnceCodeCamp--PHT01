@@ -1,0 +1,25 @@
+.color-example{
+    color: red;
+    background-color: aqua;
+}
+
+.background-example{
+    color: rgb(171, 0, 202);
+}
+
+.background-position-example{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/933/072/small_2x/abstract-blur-gradient-background-vector.jpg");
+    height: 300px;
+    width: 500px;
+    background-repeat: no repeat;
+    background-color: aqua;
+}
+
+.opacity-example{
+    background-color: aquamarine;
+    opacity: 100%;
+}
+
+.img-name{
+    height: 200px;
+}

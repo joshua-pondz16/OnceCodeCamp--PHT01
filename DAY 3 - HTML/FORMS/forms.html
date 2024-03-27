@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+
+    <h2>HTML FORMS OCC PHT01</h2>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Firstname" required/>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required/><br><br>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required/><br><br>
+
+            <label for="pnumber">Phone number</label>
+            <input type="tel" name="pnumber" id="pnumber" pattern="\+\(\d{2}\) \d{3}-\d{3}-\d{4}" placeholder="+(12) 345-678-9000" required/><br><br>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" cols="25"></textarea><br><br>
+
+                <label for="operating system">Operating system</label>
+                    <select name="operating system" id="operating system">
+                        <option value="none">------------</option>
+                        <option value="windows">Windows</option>
+                        <option value="linux">Linux</option>
+                        <option value="macos">MacOS</option>
+                        <option value="solaris">Solaris</option>
+                        <option value="freebsd">Freebsd</option>
+                    </select>
+
+                        <h4>Gender</h4>
+                        <input type="radio" name="gender" id="male" value="male"> 
+                        <label for="">Male</label>
+
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="">Female</label>
+
+                        <input type="radio" name="gender" id="lgbtq" value="lgbtq">
+                        <label for="">LGBTQ</label><br><br>
+
+                        <h3>Sex</h3>
+                        <input type="checkbox" name="sex" id="Man" value="man">
+                        <label for="man">Man</label>
+                        <input type="checkbox" name="sex" id="Man" value="man">
+                        <label for="man">Woman</label><br><br>
+
+                        <button type="submit">Submit</button>
+
+                        <input type="checkbox" name="color" id="pink" value="pink" />
+                        <label for="pink">Pink</label>
+                        <input type="checkbox" name="color" id="blue" value="blue" />
+                        <label for="blue">Blue</label>
+                        <input type="checkbox" name="color" id="beige" value="beige" />
+                        <label for="beige">Beige</label>
+                        <input type="checkbox" name="color" id="maroon" value="maroon" />
+                        <label for="maroon">Maroon</label>
+                        <input type="checkbox" name="color" id="lavender" value="lavender" />
+                        <label for="lavender">Lavender</label>
+
+
+        </form>
+
+
+
+</body>
+</html>
